@@ -1,0 +1,146 @@
+body{
+  font-family:"Helvetica";
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  font-size:40px;
+}
+h1,h2,h3{
+  text-align: center;
+}
+
+input, button {
+  font-size:1em;
+}
+
+form {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  width:500px;
+}
+
+form input, form button{
+  width:100%;
+  margin:1em;
+  padding:0.5em;
+  box-sizing: border-box;
+}
+h2 form{
+  display: inline-block;
+  width:auto;
+}
+h2 form button{
+  background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    text-decoration: underline;
+    color: purple;
+    font-size: 1em;
+    cursor: pointer;
+}
+.header {
+  background-color: steelblue;
+  color: white;
+  padding: 0.5em;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+.header div {
+  margin-right: 1em;
+}
+
+.header div a {
+  text-decoration: none;
+  color: white;
+}
+
+.header div a:hover {
+  color: wheat;
+}
+
+button.btn-link {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+ul.list-group {
+  width: 50%;
+  margin-left: 2em;
+}
+
+.card-body h4 {
+  margin-left: 0.8em;
+}
+
+li.list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+a.btn-info {
+  margin-left: 2em;
+}
+
+.btn-primary {
+  margin: 1em;
+}
+
+div.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 35em;
+}
+
+div.card-header span,
+.list-group-item span {
+  display: flex;
+  align-items: center;
+}
+
+div.card-header span input[type='submit'],
+.list-group-item input[type='submit'] {
+  margin: 0 0.2em;
+  padding: 0.2em;
+}
+
+div.form-group {
+  display: flex;
+  align-items: center;
+}
+
+div.form-group label {
+  width: 10em;
+}
+
+div.welcome-msg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.welcome-msg input[type='submit'] {
+  background-color: cornflowerblue;
+  border: 1px solid lightblue;
+  padding: 0.2em;
+  border-radius: 5px;
+  margin: 0 1em;
+}
+
+div.welcome-msg input[type='submit']:hover {
+  background-color: lightblue;
+  border: 1px solid cornflowerblue;
+}
