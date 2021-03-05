@@ -1,4 +1,4 @@
-# Midterm Kickoff
+# Midterm Kickoff joy!
 
 ## Read the available resources
 
